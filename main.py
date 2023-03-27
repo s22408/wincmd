@@ -8,5 +8,5 @@ for x in Argumenty:
         min = x
     if x>max:
         max = x
-
+print('essa')
 
