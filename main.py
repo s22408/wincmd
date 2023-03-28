@@ -1,6 +1,6 @@
 Argumenty = [int(x) for x in input("podaj liczby po przecinku\n").split(',')]
 
-min = 0
+min = Argumenty[0]
 max = Argumenty[0]
 print(Argumenty)
 for x in Argumenty:
@@ -8,5 +8,7 @@ for x in Argumenty:
         min = x
     if x>max:
         max = x
-print('essa')
+print("wprowadzono "+str(len(Argumenty))+" liczb")
+print("największa: "+str(max))
+print("najmniejsza: "+str(min))
 
